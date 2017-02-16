@@ -9,7 +9,7 @@ public class LoginPage
 
 	WebDriver driver;
 	WebElement txtuser,txtpass,btnlogin,lnkLogin;
-	
+	//Constructor
 	public LoginPage(WebDriver driver)
 	{
 		this.driver = driver;

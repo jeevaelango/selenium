@@ -6,7 +6,7 @@ import pageObjects.LoginPage;
 public class LoginFunctionality
 {
 	WebDriver driver;
-	//Constructor
+	
 	public LoginFunctionality(WebDriver driver)
 	{
 		this.driver = driver;

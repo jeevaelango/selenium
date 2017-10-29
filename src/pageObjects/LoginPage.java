@@ -14,7 +14,7 @@ public class LoginPage
 	{
 		this.driver = driver;
 	}
-	//link Login
+	//link
 	public WebElement lnkLogin()
 	{
 		lnkLogin = driver.findElement(By.xpath(".//span[@class='login']/small/a[text()='Log in']"));
